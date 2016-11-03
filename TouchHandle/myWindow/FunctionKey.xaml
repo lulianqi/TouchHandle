@@ -1,0 +1,12 @@
+﻿<src:myBaseKeyWindow xmlns:src="clr-namespace:TouchHandle.myControl" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:myControl="clr-namespace:TouchHandle.myControl" x:Class="TouchHandle.myWindow.FunctionKey"
+        Title="FunctionKey" Height="230" Width="230"  Background="{x:Null}" AllowsTransparency="True"  WindowStyle="None" ShowInTaskbar="False" Loaded="FunctionKey_Loaded">
+    <Grid>
+        <myControl:myTouchKey x:Name="key_A" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_A.png"/>
+        <myControl:myTouchKey x:Name="key_B" HorizontalAlignment="Left" Height="100" Margin="120,10,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_B.png"/>
+        <myControl:myTouchKey x:Name="key_C" HorizontalAlignment="Left" Height="100" Margin="10,120,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_C.png"/>
+        <myControl:myTouchKey x:Name="key_D" HorizontalAlignment="Left" Height="100" Margin="120,120,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_D.png"/>
+    </Grid>
+</src:myBaseKeyWindow>

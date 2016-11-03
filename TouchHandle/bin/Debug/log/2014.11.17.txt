@@ -1,0 +1,32 @@
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 293
+值不能为 null。
+参数名: String
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 293
+值不能为 null。
+参数名: String
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 293
+值不能为 null。
+参数名: String
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 295
+Error:  远程服务器返回错误: (400) 错误的请求。
+StatusCode:  400
+{
+  "error_code" : "10117",
+  "error" : "你的版本号在版本库中未找到！"
+}
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 295
+Error:  远程服务器返回错误: (400) 错误的请求。
+StatusCode:  400
+{
+  "error_code" : "10117",
+  "error" : "你的版本号在版本库中未找到！"
+}

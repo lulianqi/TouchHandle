@@ -1,0 +1,7 @@
+ErrorFile: 
+ErrorLine: 0
+Cannot determine compressed stream type.  Supported Reader Formats: Zip, GZip, BZip2, Tar, Rar
+++++++++++++++++++++
+ErrorFile: 
+ErrorLine: 0
+Cannot determine compressed stream type.  Supported Reader Formats: Zip, GZip, BZip2, Tar, Rar

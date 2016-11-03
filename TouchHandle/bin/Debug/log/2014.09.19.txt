@@ -1,0 +1,7 @@
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myKeyMap.cs
+ErrorLine: 148
+不能在节点类型“Element”上设置值。
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myKeyMap.cs
+ErrorLine: 148
+不能在节点类型“Element”上设置值。

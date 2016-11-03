@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E3A8BF7C-4EE9-41F4-A3E4-B643D8C2029F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UpgradeService</RootNamespace>
+    <AssemblyName>UpgradeService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SharpCompress, Version=0.10.3.0, Culture=neutral, PublicKeyToken=beaf6f427e128133, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="myTool\myDownload.cs" />
+    <Compile Include="myTool\myToolFunction.cs" />
+    <Compile Include="UpgradeService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpgradeService.Designer.cs">
+      <DependentUpon>UpgradeService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UpgradeService.resx">
+      <DependentUpon>UpgradeService.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_78.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_84.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\souce\frame_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="myResources\frame_0.png" />
+    <EmbeddedResource Include="myResources\frame_1.png" />
+    <EmbeddedResource Include="myResources\frame_10.png" />
+    <EmbeddedResource Include="myResources\frame_100.png" />
+    <EmbeddedResource Include="myResources\frame_11.png" />
+    <EmbeddedResource Include="myResources\frame_12.png" />
+    <EmbeddedResource Include="myResources\frame_13.png" />
+    <EmbeddedResource Include="myResources\frame_14.png" />
+    <EmbeddedResource Include="myResources\frame_15.png" />
+    <EmbeddedResource Include="myResources\frame_16.png" />
+    <EmbeddedResource Include="myResources\frame_17.png" />
+    <EmbeddedResource Include="myResources\frame_18.png" />
+    <EmbeddedResource Include="myResources\frame_19.png" />
+    <EmbeddedResource Include="myResources\frame_2.png" />
+    <EmbeddedResource Include="myResources\frame_20.png" />
+    <EmbeddedResource Include="myResources\frame_21.png" />
+    <EmbeddedResource Include="myResources\frame_22.png" />
+    <EmbeddedResource Include="myResources\frame_23.png" />
+    <EmbeddedResource Include="myResources\frame_24.png" />
+    <EmbeddedResource Include="myResources\frame_25.png" />
+    <EmbeddedResource Include="myResources\frame_26.png" />
+    <EmbeddedResource Include="myResources\frame_27.png" />
+    <EmbeddedResource Include="myResources\frame_28.png" />
+    <EmbeddedResource Include="myResources\frame_29.png" />
+    <EmbeddedResource Include="myResources\frame_3.png" />
+    <EmbeddedResource Include="myResources\frame_30.png" />
+    <EmbeddedResource Include="myResources\frame_31.png" />
+    <EmbeddedResource Include="myResources\frame_32.png" />
+    <EmbeddedResource Include="myResources\frame_33.png" />
+    <EmbeddedResource Include="myResources\frame_34.png" />
+    <EmbeddedResource Include="myResources\frame_35.png" />
+    <EmbeddedResource Include="myResources\frame_36.png" />
+    <EmbeddedResource Include="myResources\frame_37.png" />
+    <EmbeddedResource Include="myResources\frame_38.png" />
+    <EmbeddedResource Include="myResources\frame_39.png" />
+    <EmbeddedResource Include="myResources\frame_4.png" />
+    <EmbeddedResource Include="myResources\frame_40.png" />
+    <EmbeddedResource Include="myResources\frame_41.png" />
+    <EmbeddedResource Include="myResources\frame_42.png" />
+    <EmbeddedResource Include="myResources\frame_43.png" />
+    <EmbeddedResource Include="myResources\frame_44.png" />
+    <EmbeddedResource Include="myResources\frame_45.png" />
+    <EmbeddedResource Include="myResources\frame_46.png" />
+    <EmbeddedResource Include="myResources\frame_47.png" />
+    <EmbeddedResource Include="myResources\frame_48.png" />
+    <EmbeddedResource Include="myResources\frame_49.png" />
+    <EmbeddedResource Include="myResources\frame_5.png" />
+    <EmbeddedResource Include="myResources\frame_50.png" />
+    <EmbeddedResource Include="myResources\frame_51.png" />
+    <EmbeddedResource Include="myResources\frame_52.png" />
+    <EmbeddedResource Include="myResources\frame_53.png" />
+    <EmbeddedResource Include="myResources\frame_54.png" />
+    <EmbeddedResource Include="myResources\frame_55.png" />
+    <EmbeddedResource Include="myResources\frame_56.png" />
+    <EmbeddedResource Include="myResources\frame_57.png" />
+    <EmbeddedResource Include="myResources\frame_58.png" />
+    <EmbeddedResource Include="myResources\frame_59.png" />
+    <EmbeddedResource Include="myResources\frame_6.png" />
+    <EmbeddedResource Include="myResources\frame_60.png" />
+    <EmbeddedResource Include="myResources\frame_61.png" />
+    <EmbeddedResource Include="myResources\frame_62.png" />
+    <EmbeddedResource Include="myResources\frame_63.png" />
+    <EmbeddedResource Include="myResources\frame_64.png" />
+    <EmbeddedResource Include="myResources\frame_65.png" />
+    <EmbeddedResource Include="myResources\frame_66.png" />
+    <EmbeddedResource Include="myResources\frame_67.png" />
+    <EmbeddedResource Include="myResources\frame_68.png" />
+    <EmbeddedResource Include="myResources\frame_69.png" />
+    <EmbeddedResource Include="myResources\frame_7.png" />
+    <EmbeddedResource Include="myResources\frame_70.png" />
+    <EmbeddedResource Include="myResources\frame_71.png" />
+    <EmbeddedResource Include="myResources\frame_72.png" />
+    <EmbeddedResource Include="myResources\frame_73.png" />
+    <EmbeddedResource Include="myResources\frame_74.png" />
+    <EmbeddedResource Include="myResources\frame_75.png" />
+    <EmbeddedResource Include="myResources\frame_76.png" />
+    <EmbeddedResource Include="myResources\frame_77.png" />
+    <EmbeddedResource Include="myResources\frame_78.png" />
+    <EmbeddedResource Include="myResources\frame_79.png" />
+    <EmbeddedResource Include="myResources\frame_8.png" />
+    <EmbeddedResource Include="myResources\frame_80.png" />
+    <EmbeddedResource Include="myResources\frame_81.png" />
+    <EmbeddedResource Include="myResources\frame_82.png" />
+    <EmbeddedResource Include="myResources\frame_83.png" />
+    <EmbeddedResource Include="myResources\frame_84.png" />
+    <EmbeddedResource Include="myResources\frame_85.png" />
+    <EmbeddedResource Include="myResources\frame_86.png" />
+    <EmbeddedResource Include="myResources\frame_87.png" />
+    <EmbeddedResource Include="myResources\frame_88.png" />
+    <EmbeddedResource Include="myResources\frame_89.png" />
+    <EmbeddedResource Include="myResources\frame_9.png" />
+    <EmbeddedResource Include="myResources\frame_90.png" />
+    <EmbeddedResource Include="myResources\frame_91.png" />
+    <EmbeddedResource Include="myResources\frame_92.png" />
+    <EmbeddedResource Include="myResources\frame_93.png" />
+    <EmbeddedResource Include="myResources\frame_94.png" />
+    <EmbeddedResource Include="myResources\frame_95.png" />
+    <EmbeddedResource Include="myResources\frame_96.png" />
+    <EmbeddedResource Include="myResources\frame_97.png" />
+    <EmbeddedResource Include="myResources\frame_98.png" />
+    <EmbeddedResource Include="myResources\frame_99.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Decompression.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

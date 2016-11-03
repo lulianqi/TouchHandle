@@ -1,0 +1,10 @@
+D:\my\code\Csharp\TouchHandle\UpgradeService\obj\Debug\UpgradeService.Properties.Resources.resources
+D:\my\code\Csharp\TouchHandle\UpgradeService\obj\Debug\UpgradeService.csproj.GenerateResource.Cache
+D:\my\code\Csharp\TouchHandle\UpgradeService\bin\Debug\UpgradeService.exe
+D:\my\code\Csharp\TouchHandle\UpgradeService\bin\Debug\UpgradeService.pdb
+D:\my\code\Csharp\TouchHandle\UpgradeService\obj\Debug\UpgradeService.exe
+D:\my\code\Csharp\TouchHandle\UpgradeService\obj\Debug\UpgradeService.pdb
+D:\my\code\Csharp\TouchHandle\UpgradeService\obj\Debug\UpgradeService.UpgradeService.resources
+D:\my\code\Csharp\TouchHandle\UpgradeService\obj\Debug\UpgradeService.csprojResolveAssemblyReference.cache
+D:\my\code\Csharp\TouchHandle\UpgradeService\bin\Debug\UpgradeService.exe.CodeAnalysisLog.xml
+D:\my\code\Csharp\TouchHandle\UpgradeService\bin\Debug\UpgradeService.exe.lastcodeanalysissucceeded

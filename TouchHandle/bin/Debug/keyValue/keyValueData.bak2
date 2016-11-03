@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="gb2312"?>
+<MicroControl>
+  <Project name="key" remark="键值配置">
+    <KeyMap name="默认配置1" remark="user/register">
+      <key_up>38</key_up>
+      <key_down>40</key_down>
+      <key_left>37</key_left>
+      <key_right>39</key_right>
+      <key_ok>13</key_ok>
+      <key_A>65</key_A>
+      <key_B>66</key_B>
+      <key_C>67</key_C>
+      <key_D>68</key_D>
+    </KeyMap>
+    <KeyMap name="默认配置2" remark="user/register">
+      <key_up>0</key_up>
+      <key_down>0</key_down>
+      <key_left>0</key_left>
+      <key_right>0</key_right>
+      <key_ok>32</key_ok>
+      <key_A>0</key_A>
+      <key_B>0</key_B>
+      <key_C>0</key_C>
+      <key_D>0</key_D>
+    </KeyMap>
+    <KeyMap name="默认配置3" remark="user/register">
+      <key_up>0</key_up>
+      <key_down>0</key_down>
+      <key_left>0</key_left>
+      <key_right>0</key_right>
+      <key_ok>0</key_ok>
+      <key_A>0</key_A>
+      <key_B>0</key_B>
+      <key_C>0</key_C>
+      <key_D>0</key_D>
+    </KeyMap>
+    <KeyMap name="默认配置4" remark="user/register">
+      <key_up>0</key_up>
+      <key_down>0</key_down>
+      <key_left>0</key_left>
+      <key_right>0</key_right>
+      <key_ok>0</key_ok>
+      <key_A>0</key_A>
+      <key_B>0</key_B>
+      <key_C>0</key_C>
+      <key_D>0</key_D>
+    </KeyMap>
+    <KeyMap name="默认配置5" remark="user/register">
+      <key_up>0</key_up>
+      <key_down>0</key_down>
+      <key_left>0</key_left>
+      <key_right>0</key_right>
+      <key_ok>0</key_ok>
+      <key_A>0</key_A>
+      <key_B>0</key_B>
+      <key_C>0</key_C>
+      <key_D>0</key_D>
+    </KeyMap>
+  </Project>
+</MicroControl>

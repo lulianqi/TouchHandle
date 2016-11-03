@@ -1,0 +1,24 @@
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 212
+值不能为 null。
+参数名: String
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 212
+值不能为 null。
+参数名: String
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 212
+值不能为 null。
+参数名: String
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 212
+值不能为 null。
+参数名: String
+++++++++++++++++++++
+ErrorFile: d:\my\code\Csharp\TouchHandle\TouchHandle\myTool\myVaneLife.cs
+ErrorLine: 212
+值不能为 null。
+参数名: String

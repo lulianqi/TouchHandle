@@ -1,0 +1,29 @@
+﻿<src:myBaseKeyWindow xmlns:src="clr-namespace:TouchHandle.myControl" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:myControl="clr-namespace:TouchHandle.myControl" x:Class="TouchHandle.myWindow.KeyWindow_Original"
+        Title="KeyWindow_Original" Height="340" Width="572" Background="{x:Null}" AllowsTransparency="True"  WindowStyle="None" ShowInTaskbar="False" Loaded="Window_Loaded">
+    <!--<Canvas Name="CanvasDirection" TouchMove="CanvasDirection_TouchMove" TouchLeave="CanvasDirection_TouchLeave" TouchEnter="CanvasDirection_TouchEnter"  >-->
+    <Grid Name="CridMain">
+        <Viewbox Name="ViewboxDirection"  Width="340" Height="340" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Grid Name="GridDirection" >
+                <myControl:myTouchKey x:Name="key_left" HorizontalAlignment="Left" Height="100" Margin="10,120,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_left.png" myInImageSource="/TouchHandle;component/myResources/key_left_in.png" myOutImageSource="/TouchHandle;component/myResources/key_left.png"/>
+                <myControl:myTouchKey x:Name="key_up" HorizontalAlignment="Left" Height="100" Margin="120,10,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_up.png" myInImageSource="/TouchHandle;component/myResources/key_up_in.png" myOutImageSource="/TouchHandle;component/myResources/key_up.png"/>
+                <myControl:myTouchKey x:Name="key_right" HorizontalAlignment="Left" Height="100" Margin="230,120,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_right.png" myInImageSource="/TouchHandle;component/myResources/key_right_in.png" myOutImageSource="/TouchHandle;component/myResources/key_right.png"/>
+                <myControl:myTouchKey x:Name="key_down" Height="100" Margin="120,230,120,0" VerticalAlignment="Top" Source="/TouchHandle;component/myResources/key_down.png" myInImageSource="/TouchHandle;component/myResources/key_down_in.png" myOutImageSource="/TouchHandle;component/myResources/key_down.png"/>
+                <myControl:myTouchKey x:Name="key_ok" HorizontalAlignment="Left" Height="100" Margin="120,120,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_ok.png" >
+                    <!--<Thumb x:Name="myThumb_ok"/>-->
+                </myControl:myTouchKey>
+            </Grid>
+        </Viewbox>
+
+        <Viewbox Name="ViewboxFunction"  Width="230" Height="230" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+            <Grid Name="GridFunction" >
+                <myControl:myTouchKey x:Name="key_A" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_A.png" myInImageSource="/TouchHandle;component/myResources/key_A_in.png" myOutImageSource="/TouchHandle;component/myResources/key_A.png"/>
+                <myControl:myTouchKey x:Name="key_B" HorizontalAlignment="Left" Height="100" Margin="120,10,10,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_B.png" myInImageSource="/TouchHandle;component/myResources/key_B_in.png" myOutImageSource="/TouchHandle;component/myResources/key_B.png"/>
+                <myControl:myTouchKey x:Name="key_C" HorizontalAlignment="Left" Height="100" Margin="10,120,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_C.png" myInImageSource="/TouchHandle;component/myResources/key_C_in.png" myOutImageSource="/TouchHandle;component/myResources/key_C.png"/>
+                <myControl:myTouchKey x:Name="key_D" HorizontalAlignment="Left" Height="100" Margin="120,120,0,0" VerticalAlignment="Top" Width="100" Source="/TouchHandle;component/myResources/key_D.png" myInImageSource="/TouchHandle;component/myResources/key_D_in.png" myOutImageSource="/TouchHandle;component/myResources/key_D.png"/>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</src:myBaseKeyWindow>

@@ -1,0 +1,7 @@
+ErrorFile: 
+ErrorLine: 0
+文件“D:\my\code\Csharp\TouchHandle\TouchHandle\bin\Debug\TouchHandle.exe”正由另一进程使用，因此该进程无法访问此文件。
+++++++++++++++++++++
+ErrorFile: 
+ErrorLine: 0
+操作已被用户取消。

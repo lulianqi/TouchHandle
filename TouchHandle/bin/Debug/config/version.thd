@@ -1,0 +1,10 @@
+[VersionState]
+isNew=false
+url=http://file.vanelife.com/pic/version/data/devversion/upgrade.rar
+code=21
+type=0
+desc=0
+[UpgradeState]
+isAlive=false
+isShow=true
+isNeedDownload=true
